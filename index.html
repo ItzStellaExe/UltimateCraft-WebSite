@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UltimateCraft Website</title>
+</head>
+<body>
+  <h1>Benvenuto nel sito UltimateCraft!</h1>
+
+  <!-- Firebase Initialization -->
+  <script type="module">
+    // Import the functions you need from the SDKs
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
+
+    // Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyA_JCnbJ0mAp-Hli_UYFfV-4zjKtNfZs-g",
+      authDomain: "ultimatecraft-website.firebaseapp.com",
+      projectId: "ultimatecraft-website",
+      storageBucket: "ultimatecraft-website.appspot.com",
+      messagingSenderId: "420464581471",
+      appId: "1:420464581471:web:98a835027d4c25c337f4ea",
+      measurementId: "G-9FPBLKD2D5"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    console.log("Firebase inizializzato con successo!");
+  </script>
+</body>
+</html>
